@@ -1,0 +1,16 @@
+group 'de.tobias-men.finance'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+subprojects {
+    apply plugin: "java"
+    repositories {
+        mavenCentral()
+    }
+}
+
+allprojects {
+    task hello << { task -> println "I'm $task.project.name" }
+}

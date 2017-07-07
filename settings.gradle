@@ -1,0 +1,5 @@
+rootProject.name = 'yield-triangle-generator'
+include ':model'
+include ':console-printer'
+include ':html-builder'
+

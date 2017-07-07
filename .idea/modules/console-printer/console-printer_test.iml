@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":console-printer:test" external.linked.project.path="$MODULE_DIR$/../../../console-printer" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="de.tobias-men.finance" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output-test url="file://$MODULE_DIR$/../../../console-printer/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../console-printer/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../console-printer/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../console-printer/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="console-printer_main" />
+    <orderEntry type="module" module-name="model_main" />
+    <orderEntry type="library" name="Gradle: com.yahoofinance-api:YahooFinanceAPI:2.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:19.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.kodeblox:BigDecimalFunctions:1.1.0" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="console-printer_main" />
+</module>

@@ -1,0 +1,17 @@
+group 'de.tobias-men.finance'
+version '1.0-SNAPSHOT'
+
+apply plugin:'application'
+mainClassName = 'de.tobias_men.finance.yield_triangle_generator.ConsolePrinterMain'
+
+dependencies {
+    compile project(':model')
+    compile project(':html-builder')
+}
+
+
+run {
+    if ( project.hasProperty("appArgs") ) {
+        args Eval.me(appArgs)
+    }
+}
