@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/console-printer/console-printer.iml" filepath="$PROJECT_DIR$/.idea/modules/console-printer/console-printer.iml" group="console-printer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/console-printer/console-printer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/console-printer/console-printer_main.iml" group="console-printer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/console-printer/console-printer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/console-printer/console-printer_test.iml" group="console-printer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html-builder/html-builder.iml" filepath="$PROJECT_DIR$/.idea/modules/html-builder/html-builder.iml" group="html-builder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html-builder/html-builder_main.iml" filepath="$PROJECT_DIR$/.idea/modules/html-builder/html-builder_main.iml" group="html-builder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html-builder/html-builder_test.iml" filepath="$PROJECT_DIR$/.idea/modules/html-builder/html-builder_test.iml" group="html-builder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/model.iml" filepath="$PROJECT_DIR$/.idea/modules/model/model.iml" group="model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/model/model_main.iml" group="model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/model/model_test.iml" group="model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yield-triangle-generator.iml" filepath="$PROJECT_DIR$/.idea/modules/yield-triangle-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yield-triangle-generator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/yield-triangle-generator_main.iml" group="yield-triangle-generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yield-triangle-generator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/yield-triangle-generator_test.iml" group="yield-triangle-generator" />
+    </modules>
+  </component>
+</project>

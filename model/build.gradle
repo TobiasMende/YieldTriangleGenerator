@@ -4,5 +4,5 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 
 dependencies {
-    compile 'com.yahoofinance-api:YahooFinanceAPI:2.0.1'
+    compile 'com.yahoofinance-api:YahooFinanceAPI:3.8.0'
 }
