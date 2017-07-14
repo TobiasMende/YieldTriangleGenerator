@@ -25,7 +25,7 @@ class TriangleTableBuilder {
         final int numberOfColumns = numberOfYearsBetween(triangle.getMinYear(), triangle.getMaxYear()) + 1;
         builder.append("<tr>");
         appendEmptyCells(numberOfColumns);
-        appendTitleCell("Kaufen");
+        appendTitleCell("Buy");
         builder.append("</tr>");
 
 
@@ -42,7 +42,7 @@ class TriangleTableBuilder {
 
     private void appendSellingYearsHeader(YieldTriangle triangle) {
         builder.append("<tr>");
-        appendTitleCell("Verkauf");
+        appendTitleCell("Sell");
         for (Year year = triangle.getMinYear().plusYears(1); !year.isAfter(triangle.getMaxYear()); year = year.plusYears(1)) {
             appendTitleCell(year);
         }

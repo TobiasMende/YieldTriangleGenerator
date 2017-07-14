@@ -28,7 +28,7 @@ public class HtmlRepresentationBuilder implements StringRepresentationBuilder {
 
     private void appendTitle(StringBuilder builder, YieldTriangle triangle) {
         builder.append("<title>");
-        builder.append("Renditedreieck für Symbol '" + triangle.getSymbol() +"' von " + triangle.getMinYear() + " bis " + triangle.getMaxYear());
+        builder.append("Yield Triangle for Symbol '" + triangle.getSymbol() +"' from " + triangle.getMinYear() + " to " + triangle.getMaxYear());
         builder.append("</title>");
     }
 
